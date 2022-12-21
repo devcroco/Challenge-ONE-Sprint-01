@@ -1,0 +1,147 @@
+body {
+    background: linear-gradient(#FFFFFF, lightblue);
+    width: 100vw;
+    height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho h1 {
+    padding-right: 20px;
+    font-size:30px ;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.cabecalho img {
+    max-width: 700px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+.container-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input {
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto, #texto-output {
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: darkblue;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    text-transform: uppercase;
+}
+
+#texto-output {
+    padding: 20px;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid darkblue;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+}
+
+#output h2 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: darkblue;
+}
+
+#output span {
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img {
+    padding-left: 20px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
+
+.container-btn button {
+    background: darkblue;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.btn-copiar {
+    background: darkblue;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.btn-copiar:hover {
+    border: 2px solid blue;
+    transition: 1s;
+}
+
+.container-btn button:hover {
+    border: 2px solid blue;
+    transition: 1s all;
+}
+
+.gif img {
+    padding-top: 20px;
+    width: 100%;
+    height: 200px;
+}
+
+.rodape {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    color: darkblue;
+}
+
+.rodape h3 {
+    font-size: 16px;
+}
+
+.icone ion-icon {
+    width: 25px;
+    height: 25px;
+    color: darkblue;
+}
+
+.icone ion-icon:hover {
+    color: white;
+}

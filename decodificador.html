@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="logobw.png">
+</head>
+
+<body>
+    <main class="main container">
+        <header class="cabecalho">
+            <img src="logobw.png" alt="logo bw">
+            <h1>Mensagens Codificadas</h1>
+        </header>
+        <div class="container-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Code"></textarea>
+            </div>
+            <div id="output">
+                <img src="criptografia.png" alt="logo bw">
+                <h2>Sua mensagem aparecerá aqui!</h2>
+            </div>
+        </div>
+        <div class="botoes">
+            <div class="container-btn">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+    </main>
+    <div class="gif">
+        <img src="matrix.gif" alt="">
+    </div>
+    <footer class="rodape">
+        <div class="icone">
+            <a href="https://github.com/devcroco"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.twitch.tv/baroquew0rks"><ion-icon name="logo-twitch"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/bruno-de-oliveira-barboza-72689b255/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+        <h3>Desenvolvido por Bruno de Oliveira</h3>
+    </footer>
+
+    <script src="decodificador/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
